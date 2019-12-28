@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Ory Segal](mailto://)
+* [Ory Segal](mailto:)
