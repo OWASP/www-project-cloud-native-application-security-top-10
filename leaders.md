@@ -1,4 +1,7 @@
 ### Leaders
 
-* [Ory Segal](mailto:)
-* [Ron Vider](mailto:ron@neosecurity.io)
+=======
+* [Ory Segal](mailto:orysegal@gmail.com)
+* [Dean Agron](mailto:dean@oxeye.io)
+* [Ron Vider](mailto:ron@oxeye.io)
+
