@@ -19,3 +19,8 @@ You do not have to be a security expert or a programmer to contribute. Contact t
  * We are actively looking for organizations and individuals that will provide vulnerability prevalence data.
  * Translation efforts (later stages)
  * Individuals and organizations that will contribute to the project will listed on the acknowledgments page.
+
+## Project Sponsors
+The OWASP Cloud-Native Application Security Top 10 project is supported by [Oxeye](https://oxeye.io)
+<br>
+[![Oxeye](assets/images/oxeye_logo.png)](https://oxeye.io/)
