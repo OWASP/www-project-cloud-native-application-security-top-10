@@ -1,11 +1,7 @@
-<!--### Project Information
-* Project Level
-* Project Type
-* Version, etc
+![Documentation Project][doc-proj-logo]
 
-### Downloads or Social Links
-* [Download](#)
-* [Social Link](#)
+[![Builders][builders-logo]][builders]
+[![Breakers][breakers-logo]][breakers]
+[![Defenders][defenders-logo]][defenders]
 
-### Code Repository
-* [repo](#)-->
+[![CC BY-SA 3.0][license-logo]{:width="175px"}][license]
