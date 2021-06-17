@@ -14,3 +14,5 @@
 [defenders-logo]: https://raw.githubusercontent.com/OWASP/www--site-theme/master/assets/images/common/owasp_defenders.svg?sanitize=true
 [doc-proj-logo]: https://raw.githubusercontent.com/OWASP/www--site-theme/master/assets/images/common/owasp_documentation_project.svg?sanitize=true
 
+### Slack
+[#cloud-native-app-sec-top-10](https://owasp.slack.com/archives/C024XB3408P)
