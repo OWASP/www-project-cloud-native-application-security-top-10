@@ -27,7 +27,7 @@ The OWASP Cloud-Native Top 10 list is currently under development (July 2021). A
  6. Over-permissive or insecure network policies
  7. Using components with known vulnerabilities
  8. Improper assets management
- 9. Inadquate 'compute' resource quota limits
+ 9. Inadequate 'compute' resource quota limits
  10. Ineffective logging & monitoring (e.g. runtime activity)
 
 ## Getting Involved
