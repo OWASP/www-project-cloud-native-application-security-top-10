@@ -15,6 +15,21 @@ Cloud native technologies empower organizations to build and run scalable applic
 <br>
 The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native Applications securely. The guide provides information about what are the most prominent security risks for Cloud-Native applications, the challenges involved, and how to overcome them.
 
+## Interim List of Risks - Currently Under Review!
+
+The OWASP Cloud-Native Top 10 list is currently under development (July 2021). As part of our effort to collect feedback, we are presenting an interim list below. Please feel free to contact the project leaders if you have any feedback. 
+
+ 1. Insecure cloud, container or orchestration configuration
+ 2. Injection flaws (app layer, cloud events, cloud services)
+ 3. Improper authentication & authorization
+ 4. CI/CD pipeline & software supply chain flaws
+ 5. Insecure secrets storage
+ 6. Over-permissive or insecure network policies
+ 7. Using components with known vulnerabilities
+ 8. Improper assets management
+ 9. Inadquate 'compute' resource quota limits
+ 10. Ineffective logging & monitoring (e.g. runtime activity)
+
 ## Getting Involved
 You do not have to be a security expert or a programmer to contribute. Contact the Project Leader(s) to get involved, we welcome any type of suggestions and comments. Possible ways to get contribute:
  * We are actively looking for organizations and individuals that will provide vulnerability prevalence data.
