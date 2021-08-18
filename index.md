@@ -25,7 +25,10 @@ Examples:
  * Container runs as root
  * Container shares resources with the host (network interface, etc.)
  * Unauthenticated Kubernetes console access 
+ * Unauthrized or overly-permissive orchestrator access
  * Insecure Infrastructure-as-Code (IaC) configuration
+ * Unauthorized hosts joining the cluster (lack of orchestrator node trust rules)
+ * ...
 
 #### CNAS-2: Injection flaws (app layer, cloud events, cloud services)
 Examples:
@@ -45,6 +48,10 @@ Examples:
 #### CNAS-4: CI/CD pipeline & software supply chain flaws
 Examples:
  * Insufficient authentication on CI/CD pipeline systems
+ * Use of untrusted images 
+ * Use of stale images
+ * Insecure communication channels to registries
+ * Overly-permissive registry access 
  * ...
 
 #### CNAS-5: Insecure secrets storage
@@ -52,6 +59,7 @@ Examples:
  * Kubernetes secrets stored unencrypted
  * API keys or passwords stored unencrypted inside containers
  * Hardcoded application secrets
+ * Mounting of storage containing sensitive information
  * ...
 
 #### CNAS-6: Over-permissive or insecure network policies
@@ -59,6 +67,7 @@ Examples:
  * Over-permissive pod to pod communication allowed
  * Internal microservices exposed to the public Internet
  * No network segmentation defined
+ * End-to-end communications not encrypted
  * ...
 
 #### CNAS-7: Using components with known vulnerabilities
@@ -84,6 +93,8 @@ Examples:
 Examples:
  * No container or host process activity monitoring
  * No network communications monitoring among microservices
+ * No resource consumption monitoring to ensure availability of critical resources
+ * Lack of monitoring on orchestration configuration propagation and stale configs
  * ...
 
 ## Getting Involved
