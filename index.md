@@ -24,10 +24,10 @@ Examples:
  * Publicly open s3 bucket
  * Container runs as root
  * Container shares resources with the host (network interface, etc.)
- * Unauthenticated Kubernetes console access 
+ * Unauthenticated orchestrator console access 
  * Unauthrized or overly-permissive orchestrator access
  * Insecure Infrastructure-as-Code (IaC) configuration
- * Unauthorized hosts joining the cluster (lack of orchestrator node trust rules)
+ * Lack of orchestrator node trust rules (e.g. unauthorized hosts joining the cluster)
  * ...
 
 #### CNAS-2: Injection flaws (app layer, cloud events, cloud services)
@@ -57,7 +57,7 @@ Examples:
 
 #### CNAS-5: Insecure secrets storage
 Examples:
- * Kubernetes secrets stored unencrypted
+ * Orchestrator secrets stored unencrypted
  * API keys or passwords stored unencrypted inside containers
  * Hardcoded application secrets
  * Mounting of storage containing sensitive information
