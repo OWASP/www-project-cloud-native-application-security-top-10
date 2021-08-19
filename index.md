@@ -60,6 +60,7 @@ Examples:
  * Orchestrator secrets stored unencrypted
  * API keys or passwords stored unencrypted inside containers
  * Hardcoded application secrets
+ * Poorly encrypted secrets (e.g. use of obsolete encryption methods, use of encoding instead of encryption, etc.) 
  * Mounting of storage containing sensitive information
  * ...
 
