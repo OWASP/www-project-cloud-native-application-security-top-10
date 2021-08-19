@@ -52,6 +52,7 @@ Examples:
  * Use of stale images
  * Insecure communication channels to registries
  * Overly-permissive registry access 
+ * Using a single environment to run CI/CD tasks for projects requiring different levels of security
  * ...
 
 #### CNAS-5: Insecure secrets storage
