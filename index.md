@@ -70,8 +70,8 @@ Examples:
  * Internal microservices exposed to the public Internet
  * No network segmentation defined
  * End-to-end communications not encrypted
+ * Network traffic to unknown or potentially malicious domains not monitored and blocked
  * ...
-
 #### CNAS-7: Using components with known vulnerabilities
 Examples:
  * Vulnerable 3rd party open source packages
