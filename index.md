@@ -24,10 +24,7 @@ Examples:
  * Publicly open s3 bucket
  * Container runs as root
  * Container shares resources with the host (network interface, etc.)
- * Unauthenticated orchestrator console access 
- * Unauthrized or overly-permissive orchestrator access
  * Insecure Infrastructure-as-Code (IaC) configuration
- * Lack of orchestrator node trust rules (e.g. unauthorized hosts joining the cluster)
  * ...
 
 #### CNAS-2: Injection flaws (app layer, cloud events, cloud services)
@@ -43,7 +40,9 @@ Examples:
 Examples:
  * Unauthenticated API access on a microservice
  * Over-permissive cloud IAM role
- * ... 
+ * Lack of orchestrator node trust rules (e.g. unauthorized hosts joining the cluster)
+ * Unauthenticated orchestrator console access 
+ * Unauthrized or overly-permissive orchestrator access
 
 #### CNAS-4: CI/CD pipeline & software supply chain flaws
 Examples:
