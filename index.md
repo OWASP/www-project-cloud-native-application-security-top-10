@@ -3,7 +3,7 @@ layout: col-sidebar
 title: OWASP Cloud-Native Application Security Top 10
 site_side: true
 tags: cloud-native-application-security
-level: 4
+level: 1
 type: documentation
 auto-migrated: 0
 pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native Applications securely. The guide provides information about what are the most prominent security risks for Cloud-Native applications, the challenges involved, and how to overcome them.
