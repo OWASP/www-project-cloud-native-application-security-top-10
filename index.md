@@ -19,7 +19,7 @@ The primary goal of the OWASP Cloud-Native Application Security Top 10 document 
 
 The OWASP Cloud-Native Top 10 list is currently under development (July 2021). As part of our effort to collect feedback, we are presenting an interim list below. Please feel free to contact the project leaders if you have any feedback. 
 
-#### CNAS-1: Insecure cloud, container or orchestration configuration
+#### [CNAS-1: Insecure cloud, container or orchestration configuration](2022/en/src/0x01_insecure_cco_config.md)
 Examples:
  * Publicly open s3 bucket
  * Container runs as root
@@ -27,7 +27,7 @@ Examples:
  * Insecure Infrastructure-as-Code (IaC) configuration
  * ...
 
-#### CNAS-2: Injection flaws (app layer, cloud events, cloud services)
+#### [CNAS-2: Injection flaws (app layer, cloud events, cloud services)](2022/en/src/0x02_inj_flaws.md)
 Examples:
  * SQL injection
  * XXE
@@ -36,7 +36,7 @@ Examples:
  * Serverless event data injection
  * ...
 
-#### CNAS-3: Improper authentication & authorization
+#### [CNAS-3: Improper authentication & authorization](2022/en/src/0x03_improper_auth.md)
 Examples:
  * Unauthenticated API access on a microservice
  * Over-permissive cloud IAM role
@@ -44,7 +44,7 @@ Examples:
  * Unauthenticated orchestrator console access 
  * Unauthrized or overly-permissive orchestrator access
 
-#### CNAS-4: CI/CD pipeline & software supply chain flaws
+#### [CNAS-4: CI/CD pipeline & software supply chain flaws](2022/en/src/0x04_cicd_ssc_flaws.md)
 Examples:
  * Insufficient authentication on CI/CD pipeline systems
  * Use of untrusted images 
@@ -54,7 +54,7 @@ Examples:
  * Using a single environment to run CI/CD tasks for projects requiring different levels of security
  * ...
 
-#### CNAS-5: Insecure secrets storage
+#### [CNAS-5: Insecure secrets storage](2022/en/src/0x05_insecure_secrets.md)
 Examples:
  * Orchestrator secrets stored unencrypted
  * API keys or passwords stored unencrypted inside containers
@@ -63,7 +63,7 @@ Examples:
  * Mounting of storage containing sensitive information
  * ...
 
-#### CNAS-6: Over-permissive or insecure network policies
+#### [CNAS-6: Over-permissive or insecure network policies](2022/en/src/0x06_over_permissive_network.md)
 Examples:
  * Over-permissive pod to pod communication allowed
  * Internal microservices exposed to the public Internet
@@ -71,26 +71,26 @@ Examples:
  * End-to-end communications not encrypted
  * Network traffic to unknown or potentially malicious domains not monitored and blocked
  * ...
-#### CNAS-7: Using components with known vulnerabilities
+#### [CNAS-7: Using components with known vulnerabilities](2022/en/src/0x07_vuln_components.md)
 Examples:
  * Vulnerable 3rd party open source packages
  * Vulnerable versions of application components
  * Use of known vulnerable container images
  * ...
 
-#### CNAS-8: Improper assets management
+#### [CNAS-8: Improper assets management](2022/en/src/0x08_asset_mgmt.md)
 Examples:
  * Undocumented microservices & APIs
  * Obsolete & unmanaged cloud resources
  * ...
 
-#### CNAS-9: Inadequate 'compute' resource quota limits
+#### [CNAS-9: Inadequate 'compute' resource quota limits](2022/en/src/0x09_compute_resources.md)
 Examples:
  * Resource-unbound containers
  * Over-permissive request quota set on APIs
  * ...
 
-#### CNAS-10: Ineffective logging & monitoring (e.g. runtime activity)
+#### [CNAS-10: Ineffective logging & monitoring (e.g. runtime activity)](2022/en/src/0x0A_logging.md)
 Examples:
  * No container or host process activity monitoring
  * No network communications monitoring among microservices
