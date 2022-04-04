@@ -19,7 +19,7 @@ The primary goal of the OWASP Cloud-Native Application Security Top 10 document 
 
 The OWASP Cloud-Native Top 10 list is currently under development (July 2021). As part of our effort to collect feedback, we are presenting an interim list below. Please feel free to contact the project leaders if you have any feedback. 
 
-#### [CNAS-1: Insecure cloud, container or orchestration configuration](2022/en/src/0x01_insecure_cco_config.md)
+#### [CNAS-1: Insecure cloud, container or orchestration configuration][CNAS1:2022]
 Examples:
  * Publicly open s3 bucket
  * Container runs as root
@@ -27,7 +27,7 @@ Examples:
  * Insecure Infrastructure-as-Code (IaC) configuration
  * ...
 
-#### [CNAS-2: Injection flaws (app layer, cloud events, cloud services)](2022/en/src/0x02_inj_flaws.md)
+#### [CNAS-2: Injection flaws (app layer, cloud events, cloud services)][CNAS2:2022]
 Examples:
  * SQL injection
  * XXE
@@ -36,7 +36,7 @@ Examples:
  * Serverless event data injection
  * ...
 
-#### [CNAS-3: Improper authentication & authorization](2022/en/src/0x03_improper_auth.md)
+#### [CNAS-3: Improper authentication & authorization][CNAS3:2022]
 Examples:
  * Unauthenticated API access on a microservice
  * Over-permissive cloud IAM role
@@ -44,7 +44,7 @@ Examples:
  * Unauthenticated orchestrator console access 
  * Unauthrized or overly-permissive orchestrator access
 
-#### [CNAS-4: CI/CD pipeline & software supply chain flaws](2022/en/src/0x04_cicd_ssc_flaws.md)
+#### [CNAS-4: CI/CD pipeline & software supply chain flaws][CNAS4:2022]
 Examples:
  * Insufficient authentication on CI/CD pipeline systems
  * Use of untrusted images 
@@ -54,7 +54,7 @@ Examples:
  * Using a single environment to run CI/CD tasks for projects requiring different levels of security
  * ...
 
-#### [CNAS-5: Insecure secrets storage](2022/en/src/0x05_insecure_secrets.md)
+#### [CNAS-5: Insecure secrets storage][CNAS5:2022]
 Examples:
  * Orchestrator secrets stored unencrypted
  * API keys or passwords stored unencrypted inside containers
@@ -63,7 +63,7 @@ Examples:
  * Mounting of storage containing sensitive information
  * ...
 
-#### [CNAS-6: Over-permissive or insecure network policies](2022/en/src/0x06_over_permissive_network.md)
+#### [CNAS-6: Over-permissive or insecure network policies][CNAS6:2022]
 Examples:
  * Over-permissive pod to pod communication allowed
  * Internal microservices exposed to the public Internet
@@ -72,26 +72,26 @@ Examples:
  * Network traffic to unknown or potentially malicious domains not monitored and blocked
  * ...
 
-#### [CNAS-7: Using components with known vulnerabilities](2022/en/src/0x07_vuln_components.md)
+#### [CNAS-7: Using components with known vulnerabilities][CNAS7:2022]
 Examples:
  * Vulnerable 3rd party open source packages
  * Vulnerable versions of application components
  * Use of known vulnerable container images
  * ...
 
-#### [CNAS-8: Improper assets management](2022/en/src/0x08_asset_mgmt.md)
+#### [CNAS-8: Improper assets management]([CNAS8:2022])
 Examples:
  * Undocumented microservices & APIs
  * Obsolete & unmanaged cloud resources
  * ...
 
-#### [CNAS-9: Inadequate 'compute' resource quota limits](2022/en/src/0x09_compute_resources.md)
+#### [CNAS-9: Inadequate 'compute' resource quota limits][CNAS9:2022]
 Examples:
  * Resource-unbound containers
  * Over-permissive request quota set on APIs
  * ...
 
-#### [CNAS-10: Ineffective logging & monitoring (e.g. runtime activity)](2022/en/src/0x0A_logging.md)
+#### [CNAS-10: Ineffective logging & monitoring (e.g. runtime activity)][CNAS10:2022]
 Examples:
  * No container or host process activity monitoring
  * No network communications monitoring among microservices
@@ -109,3 +109,14 @@ You do not have to be a security expert or a programmer to contribute. Contact t
 The OWASP Cloud-Native Application Security Top 10 project is supported by [Oxeye](https://oxeye.io)
 <br>
 [![Oxeye](assets/images/oxeye_logo.png)](https://oxeye.io/)
+
+[CNAS1:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x01_insecure_cco_config.md  
+[CNAS2:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x02_inj_flaws.md
+[CNAS3:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x03_improper_auth.md
+[CNAS4:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x04_cicd_ssc_flaws.md
+[CNAS5:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x05_insecure_secrets.md
+[CNAS6:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x06_over_permissive_network.md
+[CNAS7:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x07_vuln_components.md
+[CNAS8:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x08_asset_mgmt.md
+[CNAS9:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x09_compute_resources.md
+[CNAS10:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x0A_logging.md
