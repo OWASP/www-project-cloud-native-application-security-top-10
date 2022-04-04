@@ -71,6 +71,7 @@ Examples:
  * End-to-end communications not encrypted
  * Network traffic to unknown or potentially malicious domains not monitored and blocked
  * ...
+
 #### [CNAS-7: Using components with known vulnerabilities](2022/en/src/0x07_vuln_components.md)
 Examples:
  * Vulnerable 3rd party open source packages
