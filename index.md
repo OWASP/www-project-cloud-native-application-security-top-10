@@ -106,9 +106,12 @@ You do not have to be a security expert or a programmer to contribute. Contact t
  * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page.
 
 ## Project Sponsors
-The OWASP Cloud-Native Application Security Top 10 project is supported by [Oxeye](https://oxeye.io)
+The OWASP Cloud-Native Application Security Top 10 project is supported by [Oxeye](https://oxeye.io) and [Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)
 <br>
 [![Oxeye](assets/images/oxeye_logo.png)](https://oxeye.io/)
+<br>
+[![Prisma Cloud](assets/images/prisma_cloud.png)](https://www.paloaltonetworks.com/prisma/cloud)
+
 
 [CNAS1:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x01_insecure_cco_config.md  
 [CNAS2:2022]: https://github.com/OWASP/www-project-cloud-native-application-security-top-10/blob/master/2022/en/src/0x02_inj_flaws.md
