@@ -10,6 +10,9 @@ pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 do
 ---
 [![Follow on Twitter](https://img.shields.io/twitter/follow/owaspcloudnati1?label=Follow%20%40owaspcloudnati1&style=social)](https://twitter.com/owaspcloudnati1)
 ## Overview
+
+**Important Note:** This project is **very much alive**, and was last updates in April 2022. We are currently looking for contributors willing to draft the different categories, so please feel free to drop us an email if you would like to assist.
+
 Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. Cloud-Native applications are a fundamentally new and exciting approach to designing and building software. However, it also raises a completely new set of security challenges. For example, when you move to a microservice model, end-to-end visibility, monitoring and detection become more complex and difficult to execute.
 <br>
 <br>
