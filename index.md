@@ -83,7 +83,7 @@ Examples:
  * Use of known vulnerable container images
  * ...
 
-#### [CNAS-8: Improper assets management]([CNAS8:2022])
+#### [CNAS-8: Improper assets management][CNAS8:2022]
 Examples:
  * Undocumented microservices & APIs
  * Obsolete & unmanaged cloud resources
