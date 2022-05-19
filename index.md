@@ -24,7 +24,8 @@ The OWASP Cloud-Native Top 10 list is currently under development (July 2021). A
 
 #### [CNAS-1: Insecure cloud, container or orchestration configuration][CNAS1:2022]
 Examples:
- * Publicly open s3 bucket
+ * Publicly open cloud storage buckets
+ * Imrpoper permissions set on cloud storage buckets
  * Container runs as root
  * Container shares resources with the host (network interface, etc.)
  * Insecure Infrastructure-as-Code (IaC) configuration
