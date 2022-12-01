@@ -6,7 +6,7 @@ tags: cloud-native-application-security
 level: 2
 type: documentation
 auto-migrated: 0
-pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native Applications securely. The guide provides information about what are the most prominent security risks for Cloud-Native applications, the challenges involved, and how to overcome them.
+pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native Applications securely. The guide provides information about what the most prominent security risks are for Cloud-Native applications, the challenges involved, and how to overcome them.
 ---
 [![Follow on Twitter](https://img.shields.io/twitter/follow/owaspcloudnati1?label=Follow%20%40owaspcloudnati1&style=social)](https://twitter.com/owaspcloudnati1)
 ## Overview
@@ -16,7 +16,7 @@ pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 do
 Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. Cloud-Native applications are a fundamentally new and exciting approach to designing and building software. However, it also raises a completely new set of security challenges. For example, when you move to a microservice model, end-to-end visibility, monitoring and detection become more complex and difficult to execute.
 <br>
 <br>
-The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native applications securely. The guide provides information about what are the most prominent security risks for cloud-native applications, the challenges involved, and how to overcome them.
+The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking to adopt Cloud-Native applications securely. The guide provides information about what the most prominent security risks for cloud-native applications are, the challenges involved, and how to overcome them.
 
 ## Interim List of Risks - Currently Under Review!
 
@@ -25,7 +25,7 @@ The OWASP Cloud-Native Top 10 list is currently under development (July 2021). A
 #### [CNAS-1: Insecure cloud, container or orchestration configuration][CNAS1:2022]
 Examples:
  * Publicly open cloud storage buckets
- * Imrpoper permissions set on cloud storage buckets
+ * Improper permissions set on cloud storage buckets
  * Container runs as root
  * Container shares resources with the host (network interface, etc.)
  * Insecure Infrastructure-as-Code (IaC) configuration
@@ -104,7 +104,7 @@ Examples:
  * ...
 
 ## Getting Involved
-You do not have to be a security expert or a programmer to contribute. Contact the project leader(s) to get involved, we welcome any type of suggestion and comments. Possible ways to contribute:
+You do not have to be a security expert or a programmer to contribute. Contact the project leader(s) to get involved. We welcome any types of suggestions and comments. Possible ways to contribute:
  * We are actively looking for organizations and individuals that will provide vulnerability prevalence data
  * Translation efforts (later stages)
  * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page.
