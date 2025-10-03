@@ -1,0 +1,38 @@
+audience:
+  - breaker
+  - builder
+  - defender
+community:
+  - name: cloud-native-app-sec-top-10
+    platform: slack
+    url: https://owasp.slack.com/archives/C024XB3408P
+    description: The goal of the Cloud-Native App Security Top 10 doc is to provide education for orgs looking to adopt Cloud-Native Apps securely. <https://owasp.org/www-project-cloud-native-application-security-top-10/>
+leaders:
+  - name: Ory Segal
+    email: orysegal@gmail.com
+    github: oorryy
+  - name: Elad Shuster
+    email: elad.shuster@owasp.org
+    github: e-shuster
+  - name: Dean Agron
+    email: dean@oxeye.io
+  - name: Ron Vider
+    email: ron@oxeye.io
+    github: RonVider
+  - name: Daniel Abeles
+    email: daniel.abeles@owasp.org
+level: 2
+name: OWASP Cloud-Native Application Security Top 10
+pitch: The primary goal of the OWASP Cloud-Native Application Security Top 10 document is to provide assistance and education for organizations looking
+  to adopt Cloud-Native Applications securely. The guide provides information about what are the most prominent security risks for Cloud-Native applications,
+  the challenges involved, and how to overcome them.
+repositories:
+  - name: www-project-cloud-native-application-security-top-10
+    url: https://github.com/OWASP/www-project-cloud-native-application-security-top-10
+    description: OWASP Foundation Web Repository
+tags:
+  - cloud-native-application-security
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-cloud-native-application-security-top-10
